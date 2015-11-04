@@ -22,3 +22,28 @@ body {
     margin: 0;
     
 }
+
+h1 {
+	text-align: center;
+	padding: 1em
+}
+
+nav {
+	padding: 0em 1em;
+	margin: 0em;
+}
+
+nav ol {
+	list-style: none;
+	padding: 0em;
+	margin-bottom: 0em;
+}
+
+
+nav a {
+	text-decoration: none;
+    color: black;
+	padding: 1em;
+	display: block;
+	margin: 0em;
+}
