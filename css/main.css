@@ -38,6 +38,11 @@ h2 {
 
 }
 
+h3 {
+    color: #20E2C1;
+    
+}
+
 .green {
     background-color: #20E2C1;
 
@@ -89,7 +94,7 @@ footer {
     
 }
 
-a { text-decoration: none; color:white; }
+a { text-decoration: none; color: white; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
