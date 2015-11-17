@@ -9,7 +9,7 @@ html {
  -ms-text-size-adjust: 100%;
  -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: sans-serif;
+  font-family: Lato;
     
   }
 
@@ -25,7 +25,27 @@ body {
 
 h1 {
 	text-align: center;
-	padding: 1em
+    padding: 1em;
+    color: white;
+    
+}
+
+h2 { 
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+
+.green {
+    background-color: #20E2C1
+
+}
+
+h3 {
+    padding: 1em;
+    
 }
 
 nav {
@@ -42,7 +62,7 @@ nav ol {
 
 nav a {
 	text-decoration: none;
-    color: black;
+    color: white;
 	padding: 1em;
 	display: block;
 	margin: 0em;
