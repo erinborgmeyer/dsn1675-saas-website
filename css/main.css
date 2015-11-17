@@ -48,6 +48,13 @@ h3 {
 
 }
 
+.features {
+    color: #20E2C1;
+    background-color: white;
+    padding-top: 1em;
+    
+}
+
 nav {
     background-color: #20E2C1; 
 	padding: 0em 1em;
@@ -77,10 +84,18 @@ p {
     
 }
 
+.pricing {
+    background-color: #F2F2F2;
+    padding-top: 1em;
+    
+}
+
 .tour {
     background-color: grey;
     
 }
+    
+
 .pink {
     width: 100%;
     height: 0;
