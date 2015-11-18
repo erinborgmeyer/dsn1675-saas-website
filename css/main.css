@@ -89,6 +89,11 @@ p {
     
 }
 
+.plan {
+    background color: #F2F2F2;
+    
+}
+
 footer {
     background-color: lightgrey;
         
@@ -102,7 +107,7 @@ a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
 a:hover, a:active { text-decoration: none; }
 
-@media only screen and (min-width: 80em) {
+@media only screen and (min-width: 60em) {
     
         p {
             text-align: center;
