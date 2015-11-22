@@ -29,6 +29,10 @@ h1 {
 }
 
 h2 {
+    position: absolute;
+    top: 200px;
+    left:0;
+    width: 100%;
     text-align: center;
     color: darkgrey;
     
@@ -80,7 +84,7 @@ p {
 .image {
   position: relative;
   width: 100%;
-  max-height: auto;
+  max-height: 660px;
   overflow: hidden;
     
 }
