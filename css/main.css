@@ -30,11 +30,10 @@ h1 {
 
 h2 {
     position: absolute;
-    top: 200px;
+    top: 300px;
     left:0;
     width: 100%;
-    text-align: center;
-    color: darkgrey;
+    color: #6d6e70;
     
 }
 
@@ -55,11 +54,13 @@ h3 {
 }
 
 nav {
-    background-color: #20E2C1; 
+    background-color: #20E2C1;
+
 }
 
 nav ol {
 	list-style: none;
+
 
 }
 
@@ -71,7 +72,7 @@ nav a {
 }
 
 p {
-    color: darkgrey;
+    color: darkgrey;   
 
 }
 
@@ -82,32 +83,28 @@ p {
 }
 
 .image {
-  position: relative;
+  position:relative;
   width: 100%;
-  max-height: 660px;
+  max-height: auto;
   overflow: hidden;
     
 }
 
-.tour {
-    background-color: grey;
+.billboard {
+    width: 100%;
+    min-height: 400px;
+}
+
+.paragraph {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    color: #6d6e70;
+    
+    
     
 }
 
-.longterm {
-    background-color: #F2F2F2;
-    
-}
-
-.plan {
-    background color: #F2F2F2;
-    
-}
-
-footer {
-    background-color: lightgrey;
-        
-}
 
 
 
