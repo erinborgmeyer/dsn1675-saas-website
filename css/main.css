@@ -31,7 +31,6 @@ h1 {
 h2 {
     position: absolute;
     top: 100px;
-    text-align: center;
     color: #20E2C1;
     
 }
@@ -71,12 +70,6 @@ nav a {
 
 p {
     color: darkgrey;   
-
-}
-
-.pricing {
-    background-color: #F2F2F2;
-    padding-top: 1em;
     
 }
 
@@ -96,7 +89,6 @@ p {
 .paragraph {
     position: absolute;
     top: 230px;
-    color: #6d6e70;
     
 }
 
