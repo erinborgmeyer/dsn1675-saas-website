@@ -23,9 +23,35 @@ body {
     
 }
 
+
+.logo {
+    width: 40%;
+    
+    
+}
+
+.text {
+    color: #20E2C1;
+    position: absolute;
+    bottom: 7em;
+    left: 0;
+    padding: 1em;
+    margin: 0;
+    width: 100%;
+}
+
+.button {
+    position:absolute;
+    bottom: 6em;
+    left: 0;
+    padding: 2em;
+    margin: 0;
+    width: 100%;
+}
+    
 h1 {
 	text-align: center;
-    
+    color: #20E2C1;
 }
 
 h2 {
@@ -39,6 +65,12 @@ h3 {
     color: #20E2C1;
     
 }
+
+.box {
+    width: 100%;
+    margin: 0;
+}
+
 
 .masthead {
     background-color: #20E2C1;
@@ -73,17 +105,12 @@ p {
     
 }
 
-.image {
-  position:relative;
-  width: 100%;
-  max-height: auto;
-  overflow: hidden;
-    
-}
-
 .billboard {
     width: 100%;
     height: auto;
+    position: relative;
+    overflow: hidden;
+        
 }
 
 .paragraph {
@@ -99,29 +126,50 @@ footer {
 
 
 
-a { text-decoration: none; color: white; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:focus { text-decoration: none; }
-a:hover, a:active { text-decoration: none; }
+@media only screen and (min-width:50em) {
+    
+    .text {
+    color: #20E2C1;
+    position: absolute;
+    bottom: 7em;
+    left: 0;
+    padding: 1em;
+    margin: 0;
+    width: 100%;
+}
+    .button {
+    position:absolute;
+    bottom: 3em;
+    left: 0;
+    padding: 2em;
+    margin: 0;
+    width: 100%;
+}
+}
 
+@media only screen and (min-width:60em) {
+    
+        .text {
+    color: #20E2C1;
+    position: absolute;
+    bottom: 7em;
+    left: 0;
+    padding: 1em;
+    margin: 0;
+    width: 100%;
 }
+    .button {
+    position:absolute;
+    bottom: 3em;
+    left: 0;
+    padding: 2em;
+    margin: 0;
+    width: 100%;
+}
+}
+    
+    
 
-@media only screen and (min-width: 60em) {
-    
-        p {
-            text-align: center;
-            
-        }
-    
-        footer {
-            background-color: #F2F2F2;
-            
-    
-    
-    
-}
-}
 
 
 
