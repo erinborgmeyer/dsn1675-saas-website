@@ -27,26 +27,41 @@ body {
 .logo {
     width: 30%;
     
-    
 }
 
 .text {
     color: #20E2C1;
     position: absolute;
-    bottom: 17em;
+    bottom: 20em;
     left: 0;
     padding: 1em;
     margin: 0;
     width: 100%;
 }
 
-.button {
-    position:absolute;
-    bottom: 22em;
+.texttwo {
+    color: darkgrey;
+    position: absolute;
+    bottom: 1em;
     left: 0;
-    padding: 2em;
+    padding: 3em;
     margin: 0;
     width: 100%;
+}
+    
+
+.button {
+    position:absolute;
+    bottom: 25em;
+    left: 0;
+    padding: 4em;
+    margin: 0;
+    width: 100%;
+}
+
+fieldset {
+    border: 0;
+    
 }
     
 h1 {
@@ -56,11 +71,17 @@ h1 {
 
 h2 {
     color: #20E2C1;
+    position: absolute;
     
 }
 
 h3 {
     color: #20E2C1;
+    
+}
+
+.arrow {
+    position: absolute;
     
 }
 
@@ -103,12 +124,26 @@ p {
     
 }
 
+.textone {
+    color: darkgrey; 
+}
+
 .billboard {
     width: 100%;
     height: auto;
     position: relative;
     overflow: hidden;
         
+}
+
+label {
+    color: darkgrey;
+    
+}
+
+input {
+    border-bottom-color: transparent;
+    
 }
 
 .paragraph {
@@ -125,10 +160,10 @@ footer {
 @media only screen and (min-width:30em) {
     
     .text {
-    bottom: 16em;
+    bottom: 18em;
 }
     .button {
-    bottom: 16em;
+    bottom: 18em;
 
 }
 }
