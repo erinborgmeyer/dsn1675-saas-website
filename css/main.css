@@ -48,16 +48,29 @@ body {
     margin: 0;
     width: 100%;
 }
-    
 
+texttour {
+    position: absolute;
+    bottom: 20em;
+    
+    
+}
+    
 .button {
     position:absolute;
-    bottom: 30em;
+    bottom: 25em;
     left: 0;
     padding: 4em;
     margin: 0;
     width: 100%;
 }
+
+buttontwo {
+    position:absolute;
+    bottom: 50em;
+    
+}
+
 
 fieldset {
     border: 0;
@@ -71,13 +84,7 @@ h1 {
 
 h2 {
     color: #20E2C1;
-    position: absolute;
-    
-}
-
-h3 {
-    color: #20E2C1;
-    
+       
 }
 
 .box {
@@ -155,10 +162,10 @@ footer {
 @media only screen and (min-width:30em) {
     
     .text {
-    bottom: 17em;
+    bottom: 18em;
 }
     .button {
-    bottom: 20em;
+    bottom: 18em;
 
 }
 }
