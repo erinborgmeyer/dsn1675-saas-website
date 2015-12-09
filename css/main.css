@@ -52,7 +52,7 @@ body {
 
 .button {
     position:absolute;
-    bottom: 25em;
+    bottom: 30em;
     left: 0;
     padding: 4em;
     margin: 0;
@@ -155,14 +155,24 @@ footer {
 @media only screen and (min-width:30em) {
     
     .text {
-    bottom: 18em;
+    bottom: 17em;
 }
     .button {
-    bottom: 18em;
+    bottom: 20em;
 
 }
 }
 
+@media only screen and (min-width:40em) {
+    
+    .text {
+    bottom: 17em;
+}
+    .button {
+    bottom: 17em;
+
+}
+}
 
 
 
