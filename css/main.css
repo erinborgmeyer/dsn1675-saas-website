@@ -156,6 +156,12 @@ p {
     width: 100%;   
 }
 
+.billboard-inside {
+    position: absolute;
+    
+    
+}
+
 
 label {
     color: darkgrey;
