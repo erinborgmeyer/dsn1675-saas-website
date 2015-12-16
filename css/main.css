@@ -32,45 +32,40 @@ body {
 .text {
     color: #20E2C1;
     position: absolute;
-    bottom: 20em;
-    left: 0;
+    bottom: 18em;
+    top: 9.5em;
     padding: 1em;
     margin: 0;
     width: 100%;
+    left: 0;
 }
 
 .texttwo {
     color: darkgrey;
     position: absolute;
     bottom: 1em;
-    left: 0;
-    padding: 3em;
-    margin: 0;
     width: 100%;
 }
 
 texttour {
     position: absolute;
-    bottom: 20em;
+    bottom: 10em;
+        
+}
+
+.overview {
+    background-color: #F2F2F2;
     
     
 }
     
 .button {
     position:absolute;
-    bottom: 25em;
-    left: 0;
-    padding: 4em;
-    margin: 0;
+    bottom: 22em;
+    top: 20em;
     width: 100%;
+    left: 0;
 }
-
-buttontwo {
-    position:absolute;
-    bottom: 50em;
-    
-}
-
 
 fieldset {
     border: 0;
@@ -126,17 +121,41 @@ p {
     
 }
 
+.price-one {
+    background-color: #F2F2F2;
+    
+}
+
+.price-two {
+    background-color: #E6E6E6;
+    
+}
+
+.price-three {
+    background-color: #D9D9D9;
+    
+}
+
 .textone {
     color: darkgrey; 
 }
 
-.billboard {
-    width: 100%;
+.image {
     height: auto;
-    position: relative;
     overflow: hidden;
-        
+    max-height: 680px;
 }
+
+.image-two {
+    height: auto;
+    overflow: hidden;
+    max-height: 590px;
+}
+
+.billboard {
+    width: 100%;   
+}
+
 
 label {
     color: darkgrey;
@@ -145,8 +164,9 @@ label {
 
 input {
     border-bottom-color: transparent;
-    
+      
 }
+
 
 .paragraph {
     position: absolute;
@@ -159,28 +179,32 @@ footer {
     
 }
 
-@media only screen and (min-width:30em) {
+@media only screen and (min-width:35em) {
+    
+
+    .button {
+        bottom: 
+        
+    }
     
     .text {
-    bottom: 18em;
-}
+        bottom: 
+        
+    }
+    
+@media only screen and (min-width:60em) {
+    
     .button {
-    bottom: 18em;
-
-}
-}
-
-@media only screen and (min-width:40em) {
+        bottom: 
+    }
     
     .text {
-    bottom: 17em;
-}
-    .button {
-    bottom: 17em;
-
-}
-}
-
+        bottom: 
+    }
+        
+ 
+        
+    }
 
 
     
