@@ -59,15 +59,19 @@ body {
 }
 
 
-texttour {
-    position: absolute;
-    bottom: 10em;
-        
-}
-
 .overview {
     background-color: #F2F2F2;
     
+    
+}
+
+.tour {
+    display: block;
+    
+}
+    
+.pricing {
+    display: block;
     
 }
     
@@ -181,7 +185,8 @@ p {
 }
 
 .billboard {
-    width: 100%;   
+    width: 100%;
+    display: block;
 }
 
 
