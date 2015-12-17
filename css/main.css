@@ -48,7 +48,7 @@ body {
 }
 
 .caption {
-    color: grey;
+    color: darkgrey;
     position: absolute;
     bottom: 10em;
     top: 17em;
@@ -79,14 +79,9 @@ texttour {
     left: 0;
 }
 
-.button2 {
-    width: 200px;
-    height: 60px;
-    background-color:#20E2C1;
-    text-align: center;
-    border: white solid 1px;
-    margin-bottom: 1em;
-    color: white;
+.check {
+    width: 10%;
+    
 }
 
 
@@ -117,8 +112,8 @@ h2 {
 }
 
 .features {
-    color: #20E2C1;
-    background-color: white;
+    color: darkgrey;
+    text-align: left;
     
 }
 
