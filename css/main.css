@@ -48,7 +48,7 @@ body {
 }
 
 .caption {
-    color: darkgrey;
+    color: grey;
     position: absolute;
     bottom: 10em;
     top: 17em;
@@ -79,8 +79,19 @@ texttour {
     left: 0;
 }
 
+.button2 {
+    width: 200px;
+    height: 60px;
+    background-color:#20E2C1;
+    border: white solid 1px;
+    color: white;
+    position:relative;
+    top: 10em;
+    bottom: 15em;
+}
+
 .check {
-    width: 10%;
+    width: 7%;
     
 }
 
@@ -113,7 +124,6 @@ h2 {
 
 .features {
     color: darkgrey;
-    text-align: left;
     
 }
 
@@ -198,32 +208,7 @@ footer {
     
 }
 
-@media only screen and (min-width:35em) {
-    
 
-    .button {
-        bottom: 
-        
-    }
-    
-    .text {
-        bottom: 
-        
-    }
-    
-@media only screen and (min-width:60em) {
-    
-    .button {
-        bottom: 
-    }
-    
-    .text {
-        bottom: 
-    }
-        
- 
-        
-    }
 
 
     
