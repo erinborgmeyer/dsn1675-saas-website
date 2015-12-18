@@ -23,7 +23,6 @@ body {
     
 }
 
-
 .logo {
     width: 30%;
     
@@ -34,8 +33,6 @@ body {
     position: absolute;
     bottom: 18em;
     top: 8.5em;
-    padding: 1em;
-    margin: 0;
     width: 100%;
     left: 0;
 }
@@ -48,26 +45,22 @@ body {
 }
 
 .caption {
-    color: grey;
+    color: darkgrey;
     position: absolute;
     bottom: 10em;
-    top: 17em;
-    padding: 1em;
-    margin: 0;
+    top: 17.5em;
     width: 100%;
     left: 0;
 }
 
-
 .overview {
     background-color: #F2F2F2;
-    
     
 }
 
 .tour {
     display: block;
-    
+
 }
     
 .pricing {
@@ -81,17 +74,6 @@ body {
     top: 20em;
     width: 100%;
     left: 0;
-}
-
-.button2 {
-    width: 200px;
-    height: 60px;
-    background-color:#20E2C1;
-    border: white solid 1px;
-    color: white;
-    position:relative;
-    top: 10em;
-    bottom: 15em;
 }
 
 .check {
@@ -119,7 +101,6 @@ h2 {
     width: 100%;
     margin: 0;
 }
-
 
 .masthead {
     background-color: #20E2C1;
@@ -168,10 +149,6 @@ p {
     
 }
 
-.textone {
-    color: darkgrey; 
-}
-
 .image {
     height: auto;
     overflow: hidden;
@@ -189,18 +166,15 @@ p {
     display: block;
 }
 
-
-
 label {
     color: darkgrey;
     
 }
 
 input {
-    border-bottom-color: transparent;
+    border-bottom-style: groove;
       
 }
-
 
 .paragraph {
     position: absolute;
