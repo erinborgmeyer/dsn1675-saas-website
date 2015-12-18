@@ -76,6 +76,14 @@ body {
     left: 0;
 }
 
+.button2 {
+    color: white;
+    background-color: #20E2C1;
+    border: none;
+    font-family: Lato;
+    
+}
+
 .check {
     width: 7%;
     
