@@ -186,7 +186,7 @@ p {
 
 .billboard {
     width: 100%;
-    direction: block;
+    display: block;
 }
 
 
